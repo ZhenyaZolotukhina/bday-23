@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 205" fill="none">
+  <defs>
+    <linearGradient id="silk" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#8c1d36"/>
+      <stop offset="0.28" stop-color="#d75d6b"/>
+      <stop offset="0.52" stop-color="#921730"/>
+      <stop offset="0.82" stop-color="#5b0b20"/>
+      <stop offset="1" stop-color="#ab3550"/>
+    </linearGradient>
+    <linearGradient id="leftLoop" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6c1027"/>
+      <stop offset="0.32" stop-color="#b43d53"/>
+      <stop offset="0.65" stop-color="#ed8290"/>
+      <stop offset="0.83" stop-color="#8c1834"/>
+      <stop offset="1" stop-color="#53091d"/>
+    </linearGradient>
+    <linearGradient id="rightLoop" x1="1" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#701022"/>
+      <stop offset="0.3" stop-color="#bd3c51"/>
+      <stop offset="0.6" stop-color="#ec7785"/>
+      <stop offset="0.85" stop-color="#8e1a33"/>
+      <stop offset="1" stop-color="#540919"/>
+    </linearGradient>
+    <linearGradient id="knot" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f28e96"/>
+      <stop offset="0.42" stop-color="#a12e47"/>
+      <stop offset="1" stop-color="#590d21"/>
+    </linearGradient>
+  </defs>
+  <!-- Два отдельных свободных конца атласной ленты, с V-образными вырезами. -->
+  <path d="M127 83C107 107 88 141 65 197L91 179L107 203C120 162 137 116 146 86Z" fill="url(#silk)" stroke="#671329" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="M144 82C170 111 195 147 219 195L224 167L254 181C227 131 190 96 154 77Z" fill="url(#silk)" stroke="#671329" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="M126 95C100 120 90 158 83 182" stroke="#f6afac" stroke-width="4.5" opacity=".3" stroke-linecap="round"/>
+  <path d="M154 92C175 114 197 146 219 181" stroke="#f6afac" stroke-width="4.5" opacity=".24" stroke-linecap="round"/>
+  <!-- Пышные крылья с понятной петлёй и складками ткани. -->
+  <path d="M136 69C114 48 81 15 46 13C16 10 7 26 13 50C19 75 45 86 76 88C97 88 119 78 137 76Z" fill="url(#leftLoop)" stroke="#631023" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M145 70C169 42 198 13 234 13C264 13 273 31 266 53C259 77 234 90 205 89C182 88 165 79 143 78Z" fill="url(#rightLoop)" stroke="#631023" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M29 34C53 25 90 43 129 72" stroke="#ffe0d7" stroke-width="6" stroke-linecap="round" opacity=".33"/>
+  <path d="M252 34C225 26 185 44 149 72" stroke="#ffe2dc" stroke-width="6" stroke-linecap="round" opacity=".31"/>
+  <path d="M45 76C70 68 103 68 131 76" stroke="#5b0d20" stroke-width="3.8" stroke-linecap="round" opacity=".55"/>
+  <path d="M239 77C216 70 177 69 147 77" stroke="#560d20" stroke-width="3.8" stroke-linecap="round" opacity=".5"/>
+  <!-- Отдельный центральный узел. -->
+  <path d="M130 57C141 53 151 57 156 68C160 77 156 91 142 93C129 94 120 87 119 76C118 67 121 60 130 57Z" fill="url(#knot)" stroke="#5d0b20" stroke-width="2.6"/>
+  <path d="M129 63C135 67 136 83 131 88" stroke="#f8b5b0" stroke-width="3.4" stroke-linecap="round" opacity=".49"/>
+  <path d="M151 64C146 73 146 83 151 88" stroke="#4a0717" stroke-width="3" opacity=".6"/>
+</svg>
