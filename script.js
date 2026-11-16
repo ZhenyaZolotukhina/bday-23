@@ -1,5 +1,5 @@
 /* Укажи опубликованный URL Google Apps Script ниже. Инструкция — README.md. */
-const GOOGLE_SCRIPT_URL = '';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx-Z0bF_jxbPCnuY0opIL3WzFt8zKx0OCr_5bvEDpjm3NgH2WDoTWxHZ3nlmhXRuMrZ/exec';
 
 const progress = document.querySelector('.reading-progress');
 const updateProgress = () => {
